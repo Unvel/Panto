@@ -1541,6 +1541,15 @@ button {
             justify-content: center;
     padding-right: 50px;
   }
+  .cartItem__content {
+    max-width: 100vw;
+  }
+  .cartItem__content .cartItem__img, .cartItem__content .cartItem__rating {
+    scale: 0.9;
+  }
+  .cartItem__content .cartItem__info .cartItem__description {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 1024px) {
   .banner {
@@ -1610,6 +1619,19 @@ button {
   }
   .banner .searchBar {
     margin-top: -100px;
+  }
+}
+@media (max-width: 856px) {
+  .cartItem__content .cartItem__info .cartItem__title {
+    font-size: 1.6rem;
+  }
+  .cartItem__content .cartItem__info .cartItem__rating {
+    scale: 0.8;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  .cartItem__content .cartItem__info .cartItem__description {
+    margin-bottom: 0;
   }
 }
 @media (max-width: 768px) {
@@ -1744,6 +1766,21 @@ button {
     scale: 0.95;
     margin-bottom: -30px;
   }
+  .cartItem__content .cartItem__img {
+    scale: 0.8;
+    margin-left: 0;
+  }
+  .cartItem__content {
+    padding: 50px 50px;
+  }
+}
+@media (max-width: 676px) {
+  .cartItem__content {
+    padding-left: 0;
+  }
+  .cartItem__content .cartItem__info {
+    margin-left: -50px;
+  }
 }
 @media (max-width: 576px) {
   .about__materials__illustration, .about__experiences__illustration {
@@ -1814,6 +1851,9 @@ button {
   }
   .productPage__content .productPage__img {
     scale: 0.8;
+  }
+  .cartItem__content {
+    padding-right: 10px;
   }
 }
 /*# sourceMappingURL=App.css.map */
