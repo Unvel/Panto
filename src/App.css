@@ -611,8 +611,6 @@ button {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
           justify-content: right;
 }
 .about__materials .about__materials__illustration {
@@ -1709,8 +1707,6 @@ button {
     margin-top: 350px;
   }
   .footer .footer__content {
-    -webkit-box-pack: normal;
-        -ms-flex-pack: normal;
             justify-content: normal;
   }
   .footer__column2, .footer__column3 {
@@ -1763,7 +1759,7 @@ button {
     text-align: center;
   }
   .productPage__content .productPage__img {
-    scale: 0.94;
+    scale: 0.95;
     margin-bottom: -30px;
   }
   .cartItem__content .cartItem__img {
@@ -1834,8 +1830,6 @@ button {
             align-items: start;
   }
   .footer .footer__content .footer__column2, .footer .footer__content .footer__column3 {
-    -webkit-box-align: normal;
-        -ms-flex-align: normal;
             align-items: normal;
     scale: 1.2;
     margin-bottom: 30px;
